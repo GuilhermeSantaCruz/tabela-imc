@@ -1,0 +1,7 @@
+print("*-" * 35)
+print("VAMOS CALCULAR SEU IMC")
+print("*-" * 35)
+nome = input("Qual o seu nome? ")
+peso = float(input(f"Qual o seu peso {nome}? [Kg] "))
+altura = float(input("Qual a sua altura? [m] "))
+imc = peso / (altura ** 2)
