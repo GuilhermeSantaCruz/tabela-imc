@@ -1,7 +1,11 @@
+print("-=" * 9)
+print("   CALCULO IMC  ")
+print("-=" * 9)
 nome = input("Qual o seu nome? ")
 peso = float(input(f"Qual o seu peso {nome}? [Kg] "))
 altura = float(input("Qual a sua altura? [m] "))
 imc = peso / (altura ** 2)
+print("-=" * 9)
 print(f"Seu IMC é {imc:.2f}")
 if imc < 18.5:
     print("Abaixo do peso ")
