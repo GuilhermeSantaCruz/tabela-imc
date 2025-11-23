@@ -17,4 +17,5 @@ elif imc < 40:
     print("Obesidade ")
 else:
     print("Obesidade mórbida ")
-            
+print("-=" * 9)    
+print("FIM DO PROGRAMA")        
